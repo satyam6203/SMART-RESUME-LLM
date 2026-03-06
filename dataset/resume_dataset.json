@@ -1,0 +1,14 @@
+[
+  {
+    "input": "Generate resume for a Java developer with Spring Boot and React skills",
+    "output": "Professional Summary: Java developer skilled in Spring Boot and React. Experience in building scalable web applications."
+  },
+  {
+    "input": "Create resume for Python developer with machine learning experience",
+    "output": "Professional Summary: Python developer specializing in machine learning, data analysis, and AI model development."
+  },
+  {
+    "input": "Generate resume for a full stack developer with Node.js and MongoDB",
+    "output": "Professional Summary: Full stack developer experienced in Node.js, MongoDB, and building RESTful applications."
+  }
+]
