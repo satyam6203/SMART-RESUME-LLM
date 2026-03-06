@@ -11,9 +11,9 @@ model = AutoModelForCausalLM.from_pretrained(model_path)
 
 
 @app.get("/generate")
-def generate_resume(prompt: str):
+def generate_resume(description: str):
 
-    inputs = tokenizer(prompt, return_tensors="pt")
+    inputs = tokenizer(description, return_tensors="pt")
 
     outputs = model.generate(
         **inputs,
